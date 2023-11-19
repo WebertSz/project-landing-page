@@ -1,11 +1,42 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 header {
+    padding: 2rem;
+    box-shadow: 0 5px 10px #fefefe;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-header ul {
+nav ul {
     display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    color: #0F212E;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: blue;
+}
+
+main {
+    padding: 1rem;
 }
