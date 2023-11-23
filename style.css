@@ -40,3 +40,19 @@ nav ul a {
 main {
     padding: 1rem;
 }
+
+footer {
+    background-color: #0F212E;
+    padding: 1rem;
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
